@@ -71,11 +71,20 @@ export default function Home() {
           <button>Signup for My Anime</button>
           <button>Sign In</button>
         </nav>
-        {/* carousel section */}
-        <section>slide show</section>
-        {/* carousel section*/}
+        {/* carousel slide show container */}
         <section>
-          <div>Simulcats</div>
+          slide show
+          {/* slide container */}
+          <div>slide</div>
+        </section>
+        {/* carousel shelfs container */}
+        <section>
+          {/* shelf container */}
+          <div>
+            Simulcats
+            {/* shelf card container */}
+            <div>shelf card</div>
+          </div>
           <div>Trending Now</div>
           <div>Popular Shows</div>
           <div>Recently Added Shows</div>
