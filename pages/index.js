@@ -1,11 +1,9 @@
-import Head from "next/head";
+import Head from "../components/headTitleMeta";
 
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>My Anime App</title>
-      </Head>
+      <Head />
       <body>
         <nav>
           <div>Logo</div>
